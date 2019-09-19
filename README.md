@@ -83,6 +83,17 @@ To install **AKMaskField** with Carthage:
 [Carthage]: https://github.com/Carthage/Carthage
 [Homebrew]: http://brew.sh
 
+### Swift Package Manager:
+
+Add the following line to your `Package.swift`:
+
+```swift
+dependencies: [
+    // ...
+    .package(url: "https://github.com/Wistas23/AKMaskField.git"),
+],
+```
+
 ### Manual
 
 If you prefer not to use either of the aforementioned dependency managers, you can integrate **AKMaskField** into your project manually.
