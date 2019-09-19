@@ -10,5 +10,5 @@ let package = Package(
         targets: ["AKMaskField"])],
     targets: [.target(
         name: "AKMaskField",
-        dependencies: [])]
+        path: "AKMaskField")]
 )
